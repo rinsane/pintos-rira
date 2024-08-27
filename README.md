@@ -13,6 +13,11 @@ git clone https://github.com/ragnar-vallhala/pintos.git
 
 2. Now you have two folders in the cloned repo, `pintos-anon` containing the source code of pintos and `qemu` containing the source code of the QEMU emulator. We will go on by building QEMU from source and then move to pintos.
 
+Make sure to update your system:
+``` bash
+sudo apt update && sudo apt upgrade
+```
+
 ## Building QEMU
 
 3. Move in the qemu directory.
